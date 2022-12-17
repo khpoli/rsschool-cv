@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Khokhlova Polina - Junior Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main">
+        <header>
+            <nav>
+              <ul class="nav">
+                <li><a href="#contacts">Contacts</a></li><!--
+                --><li><a href="#about">About Me</a></li><!--
+                --><li><a href="#skills">Skills</a></li><!--
+                --><li><a href="#code">Code Example</a></li><!--
+                --><li><a href="#experience">Experience</a></li><!--
+                --><li><a href="#education">Education</a></li><!--
+                --><li><a href="#lang">Languages</a></li>                    
+              </ul>  
+            </nav>
+        </header>
+        <main>
+            <section class="name-img">
+                <span class="img-cv"><img src="img_cv.jpg" alt="Khokhlova Polina"></span>
+                <h1>Khokhlova Polina</h1>
+            </section>
+            <section class="contact">
+                <a class="anchor" id="contacts"></a>
+                <h2>Contacts</h2>
+                <ul class="cont">
+                    <li><span class="contacts-name">Location:</span> Novosibirsk, Russia</li>
+                    <li><span class="contacts-name">Phone:</span> +7(983)131-44-58</li>
+                    <li><span class="contacts-name">Email:</span> khokhlova_poli@mail.ru</li>
+                    <li><span class="contacts-name">GitHub:</span> khpoli</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="s-about">
+                <a class="anchor" id="about"></a>
+                <h2>About me</h2>
+                <p>I want to learn a new profession and develop in the direction of frontend development. My goal is to learn new things and successfully apply them in my life.</p>
+            </section> 
+            <hr>
+            <section class="skill">
+                <a class="anchor" id="skills"></a>
+                <h2>Skills</h2>
+                <ul class="skills-name">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="code-ex">
+                <a class="anchor" id="code"></a>
+                <h2>Code Example</h2>
+                <pre>
+                    <code>
+const assert = require("chai").assert;
+
+describe("Multiply", () => {
+  it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,1), 2);
+    assert.strictEqual(multiply(2,2), 4);
+    assert.strictEqual(multiply(3,5), 15);   
+  });
+});
+                    </code>
+                </pre>
+            </section>
+            <hr>
+            <section class="exper">
+                <a class="anchor" id="experience"></a>
+                <h2>Experience</h2>
+                <p>I don't have experience in IT yet.</p>
+            </section>
+            <hr>
+            <section class="educat">
+                <h2 id="education">Education</h2>
+                <p>Bachelor, NSTU, Faculty of Automation and Computer Engineering.</p>
+            </section>
+            <hr>
+            <section class="languages">
+                <h2 id="lang">Languages</h2>
+                <ul>
+                    <li>English - B2</li>
+                    <li>Russian - native</li>
+                </ul>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <p class="author">© 2022 by Khokhlova Polina</p>
+            <ul class="nav-footer">
+                <li><a href="https://github.com/khpoli"><img class="logo" src="git-logo.png" alt="Githab"></a></li>
+                <li><a href="https://rs.school/js/"><img class="logo" src="rs_school_js.svg" alt="Rsschool"></a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>

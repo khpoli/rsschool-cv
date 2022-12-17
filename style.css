@@ -1,6 +1,98 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+body {
     margin: 0;
     padding: 0;
+	background: #ffd1dc;
+	color: #5c0016;
+	font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+.main {
+    margin: auto;
+}
+h1 {
+    font-size: 42px;
+}
+.nav {
+    margin-top: 0;
+    position: fixed;
+    background-color: #ffd1dc;
+    width: 100%;
+    height: 3em;
+    padding-top: 1em;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+a {
+	color:  #5c0016;
+	text-decoration: none;
+}
+a:hover {
+	color: #5c0016;
+    text-decoration: underline;
+    font-weight: 400;
+}
+hr {
+    border: none;
+    background-color:#5c0016;
+    color:#5c0016;
+    height: 0.5px;
+    width: 50%;
+    text-align: center;
+}
+.contact, .name-img, .s-about, .skill, .code-ex, .exper, .educat, .languages {
+    margin-left: 25%;
+}
+.name-img {
+    padding-top: 80px;
+    margin-left: 0;
+    text-align: center;
+
+}
+.s-about {
+    width: 50%;
+}
+.cont {
+    list-style-type: none;
+    line-height: 1.6em;
+    margin-left: 0;
+    padding-left: 0;
+}
+footer {
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.img-cv {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+.img-cv img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.nav-footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-footer {
+    margin-left: 100px;
+}
+.logo {
+    width: 50px;
+}
+.author {
+    float: left;
+    margin-right: 200px;
 }
